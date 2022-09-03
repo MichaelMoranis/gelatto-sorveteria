@@ -1,0 +1,66 @@
+.outdoor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  height: 400px;
+  width: 100%;
+  margin-top: 0;
+  background-color: rgb(166, 100, 228);
+}
+
+
+.paragraf-outdoor {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.outparagraf {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.out-bottom {
+  background-color: #ff0873;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  border: none;
+  font-size: 20px;
+  color: #ffb545;
+  font-weight: bold;
+}
+.car-icecream {
+  width: 60px;
+  height: 60px;
+}
+.shaved-icecream {
+  width: 60px;
+  height: 60px;
+}
+@media (max-width: 650px) {
+  .outdoor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+    padding: 10px;
+    margin:  0 auto;
+    background-color: #ffb545;
+
+  }
+  .car-icecream {
+    width: 200px;
+    height: 200px;
+  }
+  .shaved-icecream {
+    width: 200px;
+    height: 200px;
+  }
+}

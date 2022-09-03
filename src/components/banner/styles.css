@@ -1,0 +1,95 @@
+ section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px 80px 20px 80px;
+  margin-top: 0;
+  margin-bottom: 10px;
+ }
+ 
+h1 {
+  font-family: 'Qwitcher Grypen', cursive; 
+  font-size: 200px;
+  font-weight: bold;
+  text-align: center;
+  color: #f80f74;
+  margin: 10px;
+} 
+
+ .banner-paragraf {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 5px auto;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 2s steps(25) infinite alternate,
+  blink 700ms steps(25) infinite normal;
+border-right: 10px solid black;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 37%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: rgb(219, 49, 204);
+  }
+  to {
+    border-color: transparent;
+  }
+} 
+@media  (max-width: 650px) {
+ 
+ section {
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+  width: 340px;
+  box-shadow: 4px 4px rgb(240, 56, 240);
+ }
+ h1 {
+  font-family: 'Qwitcher Grypen', cursive; 
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #f80f74;
+  margin: 10px;
+} 
+.banner-paragraf {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px auto;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 2s steps(21) infinite alternate,
+  blink 800ms steps(21) infinite normal;
+border-right: 10px solid black;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: rgb(219, 49, 204);
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+}

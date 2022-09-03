@@ -1,0 +1,21 @@
+h6 {
+    color: #fff;
+    font-size: 3rem;
+    padding: 0px 40px 0px 20px;
+
+}
+.finaly {
+  background-color: rgb(28, 24, 58);
+  text-align: center;
+  color: #fff;
+}
+.finaly-name {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.the-end {
+  color: #fff;
+  font-size: 2em;
+  margin: 0 10px 0px 5px;
+}
